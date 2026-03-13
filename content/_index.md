@@ -129,7 +129,7 @@ sections:
 
         <div style="text-align: center; margin-bottom: 6rem;">
           <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
-            <img src="/images/logo3.png" alt="Research" style="max-width: 750px; border-radius: 10px; margin-left: -0px;">
+            <img src="public/images/logo3.png" alt="Research" style="max-width: 750px; border-radius: 10px; margin-left: -0px;">
           </div>
           <h1 style="margin: 0.5rem 0; color: #2c3e50;">Computer Vision Lab</h1>
           <h1 style="margin: 0.5rem 0; color: #2c3e50;">UESTC</h1>
@@ -227,7 +227,7 @@ sections:
 
           <a href="https://github.com/CVL-UESTC">
             <div class="connect-card">
-              <img src="/images/github.png" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
+              <img src="public/images/github.png" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
               <h4> Github </h4>
             </div>
 
@@ -235,7 +235,7 @@ sections:
 
           <a href="https://huggingface.co/CVLUESTC">
             <div class="connect-card">
-              <img src="/images/hugging_face.jpeg" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
+              <img src="public/images/hugging_face.jpeg" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
               <h4> Hagging Face </h4>
             </div>
           </a>
