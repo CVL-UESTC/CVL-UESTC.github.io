@@ -128,9 +128,9 @@ sections:
 
 
         <div style="text-align: center; margin-bottom: 6rem;">
-          <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
-            <img src="/images/logo3.png" alt="Research" style="max-width: 750px; border-radius: 10px; margin-left: -0px;">
-          </div>
+#          <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+#            <img src="/images/logo3.png" alt="Research" style="max-width: 750px; border-radius: 10px; margin-left: -0px;">
+#          </div>
           <h1 style="margin: 0.5rem 0; color: #2c3e50;">Computer Vision Lab</h1>
           <h1 style="margin: 0.5rem 0; color: #2c3e50;">UESTC</h1>
         </div>
