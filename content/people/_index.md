@@ -102,8 +102,18 @@ sections:
         <div class="team-grid-faculty">
           <div class="text-center">
             <img src="/images/gushuhang.jpg" class="team-photo">
-            <div class="team-member"><strong>ShuHang Gu(顾舒航)</strong><br>Professor<br>shuhanggu@gmail.com</div>
-            <a href="https://shuhanggu.github.io/"><div class="team-member">Personal homepage</div></a>
+            <div class="team-member">
+              <!-- 将名字包装在链接中 -->
+              <a href="https://shuhanggu.github.io/" style="text-decoration: none; color: inherit;">
+                <strong>ShuHang Gu(顾舒航)</strong>
+              </a>
+              <br>
+              Professor
+              <br>
+              shuhanggu@gmail.com
+            </div>
+            <!-- 移除原有的 Personal homepage 链接行 -->
+            <!-- <a href=""><div class="team-member">Personal homepage</div></a> -->
           </div>
         </div>
     design:
@@ -154,7 +164,16 @@ sections:
           </div>
           <div class="text-center">
             <img src="/images/zhangjinhua.jpg" class="team-photo-phd">
-            <div class="team-member"><strong>Jinhua Zhang (张进华)</strong><br>Visual Content Generation<br>jinhua.zjh@gmail.com</div>
+            <div class="team-member">
+              <!-- 添加超链接，保留原文本样式 -->
+              <a href="https://nuanbaobao.github.io/" style="text-decoration: none; color: inherit;">
+                <strong>Jinhua Zhang (张进华)</strong>
+              </a>
+              <br>
+              Visual Content Generation
+              <br>
+              jinhua.zjh@gmail.com
+            </div>
           </div>
           <div class="text-center">
             <img src="/images/zhouxingyu.jpg" class="team-photo-phd">
