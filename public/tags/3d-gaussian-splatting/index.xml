@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D Gaussian Splatting | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/3d-gaussian-splatting/</link>
+      <atom:link href="http://localhost:1313/tags/3d-gaussian-splatting/index.xml" rel="self" type="application/rss+xml" />
+    <description>3D Gaussian Splatting</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>3D Gaussian Splatting</title>
+      <link>http://localhost:1313/tags/3d-gaussian-splatting/</link>
+    </image>
+    
+    <item>
+      <title>👑 CVPR 2026 | IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting </title>
+      <link>http://localhost:1313/publications/paper2026/ide-splat/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/ide-splat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

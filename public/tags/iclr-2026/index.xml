@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICLR 2026 | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/iclr-2026/</link>
+      <atom:link href="http://localhost:1313/tags/iclr-2026/index.xml" rel="self" type="application/rss+xml" />
+    <description>ICLR 2026</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>ICLR 2026</title>
+      <link>http://localhost:1313/tags/iclr-2026/</link>
+    </image>
+    
+    <item>
+      <title>🎉 ICLR 2026 | MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning</title>
+      <link>http://localhost:1313/publications/paper2026/mvar/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/mvar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 ICLR 2026 | Texture Vector-Quantization and Reconstruction Aware Prediction for Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2026/tvq-rap/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/tvq-rap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Implicit Neural Representation | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/implicit-neural-representation/</link>
+      <atom:link href="http://localhost:1313/tags/implicit-neural-representation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Implicit Neural Representation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>Implicit Neural Representation</title>
+      <link>http://localhost:1313/tags/implicit-neural-representation/</link>
+    </image>
+    
+    <item>
+      <title>🔥 ICML 2025 | Inductive Gradient Adjustment For Spectral Bias In Implicit Neural Representations</title>
+      <link>http://localhost:1313/publications/paper2025/iga-inr/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/iga-inr/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2024 | Improved Implicit Neural Representation with Fourier Reparameterized Training</title>
+      <link>http://localhost:1313/publications/paper2024/fr-inr/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/fr-inr/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

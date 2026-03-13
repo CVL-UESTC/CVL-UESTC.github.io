@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Super-Resolution | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/image-super-resolution/</link>
+      <atom:link href="http://localhost:1313/tags/image-super-resolution/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Super-Resolution</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>Image Super-Resolution</title>
+      <link>http://localhost:1313/tags/image-super-resolution/</link>
+    </image>
+    
+    <item>
+      <title>🎉 ICLR 2026 | Texture Vector-Quantization and Reconstruction Aware Prediction for Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2026/tvq-rap/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/tvq-rap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | Consistency Trajectory Matching for One-Step Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2025/ctmsr/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/ctmsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2025 | Progressive Focused Transformer for Single Image Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2025/pft/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/pft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2025 | Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model</title>
+      <link>http://localhost:1313/publications/paper2025/upsr/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/upsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2024 | Transcending the Limit of Local Window: Advanced Super-Resolution Transformer with Adaptive Token Dictionary</title>
+      <link>http://localhost:1313/publications/paper2024/atd/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/atd/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

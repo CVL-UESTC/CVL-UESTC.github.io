@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publications/</link>
+      <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Academic CV Theme</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>Hugo Academic CV Theme</title>
+      <link>http://localhost:1313/publications/</link>
+    </image>
+    
+    <item>
+      <title>👑 CVPR 2026 | Guiding a Diffusion Transformer with the Internal Dynamics of Itself </title>
+      <link>http://localhost:1313/publications/paper2026/ig/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/ig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2026 | IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting </title>
+      <link>http://localhost:1313/publications/paper2026/ide-splat/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/ide-splat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 ICLR 2026 | MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning</title>
+      <link>http://localhost:1313/publications/paper2026/mvar/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/mvar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 ICLR 2026 | Texture Vector-Quantization and Reconstruction Aware Prediction for Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2026/tvq-rap/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/tvq-rap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | Consistency Trajectory Matching for One-Step Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2025/ctmsr/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/ctmsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | Learning Pixel-adaptive Multi-layer Perceptrons for Real-time Image Enhancement</title>
+      <link>http://localhost:1313/publications/paper2025/bpam/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/bpam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | PerLDiff：Controllable Street View Synthesis Using Perspective-Layout Diffusion Models</title>
+      <link>http://localhost:1313/publications/paper2025/perldiff/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/perldiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCVW 2025 | HiLLIE: Human-in-the-Loop Training for Low-Light Image Enhancement</title>
+      <link>http://localhost:1313/publications/paper2025/hillie/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/hillie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2026 | Task-Aware Image Signal Processor for Advanced Visual Perception </title>
+      <link>http://localhost:1313/publications/paper2026/ta-isp/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2026/ta-isp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Image Compression by Estimating Gradients of the Rate-variable Feature Distribution </title>
+      <link>http://localhost:1313/publications/preprints/vcd/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/vcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LRTI-VSR: Learning Long-Range Refocused Temporal Information from Short Video Clips</title>
+      <link>http://localhost:1313/publications/preprints/lrti-vsr/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/lrti-vsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Stereo Video Compression with Hybrid Disparity Compensation</title>
+      <link>http://localhost:1313/publications/preprints/hdc-svc/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/hdc-svc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2025 | Learned Image Compression with Dictionary-based Entropy Model</title>
+      <link>http://localhost:1313/publications/paper2025/dcae/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/dcae/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2025 | Progressive Focused Transformer for Single Image Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2025/pft/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/pft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2025 | Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model</title>
+      <link>http://localhost:1313/publications/paper2025/upsr/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/upsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>⭐ NeurIPS 2024 | Causal Context Adjustment Loss for Learned Image Compression</title>
+      <link>http://localhost:1313/publications/paper2024/cca/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/cca/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🔥 ICML 2025 | Inductive Gradient Adjustment For Spectral Bias In Implicit Neural Representations</title>
+      <link>http://localhost:1313/publications/paper2025/iga-inr/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/iga-inr/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2024 | Improved Implicit Neural Representation with Fourier Reparameterized Training</title>
+      <link>http://localhost:1313/publications/paper2024/fr-inr/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/fr-inr/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2024 | Transcending the Limit of Local Window: Advanced Super-Resolution Transformer with Adaptive Token Dictionary</title>
+      <link>http://localhost:1313/publications/paper2024/atd/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/atd/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👑 CVPR 2024 | Video Super-Resolution Transformer with Masked Inter&amp;Intra-Frame Attention</title>
+      <link>http://localhost:1313/publications/paper2024/mia-vsr/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/mia-vsr/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

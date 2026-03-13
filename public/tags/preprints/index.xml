@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprints | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/preprints/</link>
+      <atom:link href="http://localhost:1313/tags/preprints/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprints</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>Preprints</title>
+      <link>http://localhost:1313/tags/preprints/</link>
+    </image>
+    
+    <item>
+      <title>Generative Image Compression by Estimating Gradients of the Rate-variable Feature Distribution </title>
+      <link>http://localhost:1313/publications/preprints/vcd/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/vcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LRTI-VSR: Learning Long-Range Refocused Temporal Information from Short Video Clips</title>
+      <link>http://localhost:1313/publications/preprints/lrti-vsr/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/lrti-vsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Stereo Video Compression with Hybrid Disparity Compensation</title>
+      <link>http://localhost:1313/publications/preprints/hdc-svc/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/preprints/hdc-svc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

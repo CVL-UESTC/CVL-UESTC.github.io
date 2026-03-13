@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Compression | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/visual-compression/</link>
+      <atom:link href="http://localhost:1313/tags/visual-compression/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visual Compression</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>Visual Compression</title>
+      <link>http://localhost:1313/tags/visual-compression/</link>
+    </image>
+    
+    <item>
+      <title>⭐ NeurIPS 2024 | Causal Context Adjustment Loss for Learned Image Compression</title>
+      <link>http://localhost:1313/publications/paper2024/cca/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2024/cca/</guid>
+      <description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

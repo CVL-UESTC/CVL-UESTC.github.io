@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICCV 2025 | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/iccv-2025/</link>
+      <atom:link href="http://localhost:1313/tags/iccv-2025/index.xml" rel="self" type="application/rss+xml" />
+    <description>ICCV 2025</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_91122116bb3ed5f7.png</url>
+      <title>ICCV 2025</title>
+      <link>http://localhost:1313/tags/iccv-2025/</link>
+    </image>
+    
+    <item>
+      <title>🏆 ICCV 2025 | Consistency Trajectory Matching for One-Step Generative Super-Resolution</title>
+      <link>http://localhost:1313/publications/paper2025/ctmsr/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/ctmsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | Learning Pixel-adaptive Multi-layer Perceptrons for Real-time Image Enhancement</title>
+      <link>http://localhost:1313/publications/paper2025/bpam/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/bpam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🏆 ICCV 2025 | PerLDiff：Controllable Street View Synthesis Using Perspective-Layout Diffusion Models</title>
+      <link>http://localhost:1313/publications/paper2025/perldiff/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2025/perldiff/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
