@@ -75,3 +75,22 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# ============================================================================
+# Images & Media (Large Binary Files)
+# ============================================================================
+
+# Original images (keep in source control if needed)
+# assets/media/
+
+# Generated images in public folder
+public/images/
+
+# Large media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
