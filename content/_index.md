@@ -16,14 +16,13 @@ sections:
           .research-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
+            gap: 1.5rem;
             margin-top: 4rem;
-            justify-content: center;
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-            margin-right: calc(-50vw + 50%);
-            padding: 0 10rem;
-            box-sizing: border-box;
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 2rem;
           }
 
           @media (max-width: 768px) {
@@ -31,15 +30,18 @@ sections:
               grid-template-columns: 1fr;
               padding: 0 1rem;
               gap: 1rem;
+            }
+            .research-card {
               width: 100%;
-              margin-left: 0;
-              margin-right: 0;
+              height: 160px;
+            }
+            .research-card h4 {
+              font-size: 1rem;
             }
           }
           .research-card {
             position: relative;
-            aspect-ratio: 3 / 2;
-            max-height: 200px;
+            height: 200px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -50,7 +52,6 @@ sections:
             border: none;
             border-radius: 16px;
             transition: all 0.4s ease;
-            overflow: hidden;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
             text-decoration: none;
           }
@@ -70,17 +71,18 @@ sections:
           }
           .research-card h4 {
             color: #2c3e50;
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             font-weight: 600;
             margin: 0;
-            letter-spacing: 2px;
+            letter-spacing: 0.5px;
             text-transform: uppercase;
             line-height: 1.4;
             text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+            white-space: nowrap;
           }
           .research-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
             line-height: 1;
           }
           .research-card::after {
@@ -236,15 +238,15 @@ sections:
           <!-- 图像复原 -->
           <a href="tags/visual-restoration/" class="research-card">
             <span class="research-icon">🔄</span>
-            <h4>Visual<br>Restoration</h4>
+            <h4>Visual Restoration</h4>
           </a>
           <a href="tags/visual-compression/" class="research-card">
             <span class="research-icon">📦</span>
-            <h4>Visual<br>Compression</h4>
+            <h4>Visual Compression</h4>
           </a>
           <a href="tags/visual-generation/" class="research-card">
             <span class="research-icon">🎨</span>
-            <h4>Visual<br>Generation</h4>
+            <h4>Visual Generation</h4>
           </a>
         </div>
 
