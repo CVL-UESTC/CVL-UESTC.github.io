@@ -81,22 +81,35 @@ sections:
         
         <style>
           .team-grid-faculty {
-            display: grid;
-            grid-template-columns: repeat(1, 250px); /* 固定列宽 */
-            justify-content: center; /* 关键：网格居中 */
-            gap: 55px;
-            padding: 0 0;
+            display: flex;
+            justify-content: center;
+            padding: 0 1rem;
+          }
+
+          .team-grid-faculty .text-center {
+            max-width: 300px;
+            width: 100%;
           }
           .team-member {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
+            margin-top: 0.5rem;
+            line-height: 1.6;
+          }
+          .team-member strong {
+            margin-bottom: -0rem;
+          }
+          .team-grid-phd > .text-center {
+            margin-bottom: 1.5rem;
           }
           .team-photo {
-            width: 250px; /* 图片填充列宽 */
+            width: 250px;
             height: auto;
             object-fit: cover;
+            display: block;
+            margin: 0 auto;
           }
         </style>
         <div class="team-grid-faculty">
@@ -127,11 +140,27 @@ sections:
         <style>
           .team-grid-phd {
             display: grid;
-            grid-template-columns: repeat(5, 250px); /* 固定列宽 */
-            grid-template-rows: repeat(1, 500px);
-            justify-content: center; /* 关键：网格居中 */
-            gap: 55px;
-            padding: 0 420px;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            justify-content: center;
+            row-gap: 5rem;
+            column-gap: 2rem;
+            padding: 0 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+
+          @media (max-width: 768px) {
+            .team-grid-phd {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 1rem;
+              padding: 0 0.5rem;
+            }
+          }
+
+          @media (max-width: 480px) {
+            .team-grid-phd {
+              grid-template-columns: 1fr;
+            }
           }
           .team-member {
             display: flex;
@@ -140,9 +169,13 @@ sections:
             text-align: center;
           }
           .team-photo-phd {
-            width: 250px; /* 图片填充列宽 */
+            width: 100%;
+            max-width: 200px;
             height: auto;
             object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
           }
         </style>
         <div class="team-grid-phd">
@@ -161,15 +194,7 @@ sections:
           </div>
           <div class="text-center">
             <img src="/images/zhangjinhua.jpg" class="team-photo-phd">
-            <div class="team-member">
-              <a href="https://nuanbaobao.github.io/" style="text-decoration: none; color: inherit; border-bottom: 1px solid #ccc;">
-                <strong>Jinhua Zhang (张进华)</strong>
-              </a>
-              <br>
-              Visual Content Generation
-              <br>
-              jinhua.zjh@gmail.com
-            </div>
+            <div class="team-member"><a href="https://nuanbaobao.github.io/" style="text-decoration: none; color: inherit; border-bottom: 1px solid #ccc;"><strong>Jinhua Zhang (张进华)</strong></a><br>Visual Content Generation<br>jinhua.zjh@gmail.com</div>
           </div>
           <div class="text-center">
             <img src="/images/zhouxingyu.jpg" class="team-photo-phd">
@@ -187,10 +212,27 @@ sections:
         <style>
           .team-grid-compact {
             display: grid;
-            grid-template-columns: repeat(5, 250px); /* 固定列宽 */
-            justify-content: center; /* 关键：网格居中 */
-            gap: 55px;
-            padding: 0 420px;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            justify-content: center;
+            row-gap: 5.0rem;
+            column-gap: 1.5rem;
+            padding: 0 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+
+          @media (max-width: 768px) {
+            .team-grid-compact {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 1rem;
+              padding: 0 0.5rem;
+            }
+          }
+
+          @media (max-width: 480px) {
+            .team-grid-compact {
+              grid-template-columns: 1fr;
+            }
           }
           .team-member {
             display: flex;
@@ -199,9 +241,11 @@ sections:
             text-align: center;
           }
           .team-photo {
-            width: 250px; /* 图片填充列宽 */
-            height: autopx;
+            width: 100%;
+            max-width: 180px;
+            height: auto;
             object-fit: cover;
+            border-radius: 8px;
           }
         </style>
         <div class="team-grid-compact">
@@ -264,10 +308,19 @@ sections:
         <style>
           .team-grid-alumni {
             display: grid;
-            grid-template-columns: repeat(2, 600px); /* 固定列宽 */
-            justify-content: center; /* 关键：网格居中 */
-            gap: 55px;
-            padding: 0 420px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 0 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+          }
+
+          @media (max-width: 768px) {
+            .team-grid-alumni {
+              grid-template-columns: 1fr;
+              padding: 0 0.5rem;
+            }
           }
           .team-member {
             display: flex;
@@ -288,9 +341,6 @@ sections:
           </div>
           <div class="text-center">
             <div class="team-member"><strong>Mingyang Zhang (张铭洋)</strong> 2024-2025, Research Intern <br> Sun Yat-sen University</div>
-          </div>
-          <div class="text-center">
-            <div class="team-member"><strong>Jinchen Wang (汪锦琛)</strong> 2024-2025, Research Intern <br> HKUST (GZ)</div>
           </div>
           <div class="text-center">
             <div class="team-member"><strong>Qifan Li (李祺帆)</strong> 2024-2025, Research Intern <br> ****</div>
