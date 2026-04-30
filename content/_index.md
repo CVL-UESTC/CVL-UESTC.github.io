@@ -15,26 +15,87 @@ sections:
         <style>
           .research-grid {
             display: grid;
-            grid-template-columns: repeat(3, 350px);
-            gap: 2rem;
-            margin-top: 0rem;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 4rem;
             justify-content: center;
-            # max-width: 1200px;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            padding: 0 10rem;
+            box-sizing: border-box;
+          }
+
+          @media (max-width: 768px) {
+            .research-grid {
+              grid-template-columns: 1fr;
+              padding: 0 1rem;
+              gap: 1rem;
+              width: 100%;
+              margin-left: 0;
+              margin-right: 0;
+            }
           }
           .research-card {
+            position: relative;
+            aspect-ratio: 3 / 2;
+            max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             padding: 1.5rem;
-            background: #fff;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
+            background: linear-gradient(135deg, rgba(240, 253, 242, 0.8) 0%, rgba(161, 249, 169, 0.2) 50%);
+            border: none;
+            border-radius: 16px;
+            transition: all 0.4s ease;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-decoration: none;
+          }
+          .research-card:nth-child(2) {
+            background: linear-gradient(135deg, rgba(240, 245, 250, 0.8) 0%, rgba(204, 226, 249, 0.6) 100%);
+          }
+          .research-card:nth-child(3) {
+            background: linear-gradient(135deg, #faf9f7 0%, #f0ebe4 100%);
+          }
+          .research-card * {
+            text-align: center;
           }
           .research-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transform: translateY(-8px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+            border-color: rgba(0, 0, 0, 0.12);
+          }
+          .research-card h4 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 1.4;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.8);
           }
           .research-icon {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 1rem;
+            line-height: 1;
+          }
+          .research-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: #2c3e50;
+            transition: width 0.3s ease;
+          }
+          .research-card:hover::after {
+            width: 40%;
           }
 
           .news-list {
@@ -47,14 +108,27 @@ sections:
 
           .news-card {
               display: flex;
-              text-align: center;
-              padding: 1.5rem;
+              flex-wrap: wrap;
+              align-items: center;
+              text-align: left;
+              padding: 1rem 1.5rem;
               background: #fff;
-              transition: transform 0.3s ease;
-              border: 1px solid #e2e8f0; /* 浅灰色边框 */
-              border-radius: 8px; /* 圆角设计 */
-              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); /* 极轻微的阴影 */
+              border: 1px solid #e2e8f0;
+              border-radius: 8px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
               transition: transform 0.2s ease, box-shadow 0.2s ease;
+          }
+
+          @media (max-width: 768px) {
+            .news-card {
+              flex-direction: column;
+              text-align: center;
+              gap: 0.5rem;
+            }
+            .news-date {
+              margin-right: 0;
+              margin-bottom: 0.25rem;
+            }
           }
 
 
@@ -74,9 +148,9 @@ sections:
           .news-date {
               font-weight: 600;       /* 加粗时间 */
               color: #4a5568;         /* 深灰色 */
-              min-width: 20px;        /* 关键：给时间设置固定最小宽度，确保后面内容对齐 */
-              # flex-shrink: 0;         /* 防止时间部分被压缩 */
-              margin-right: 160px;     /* 时间与内容之间的间距 */
+              min-width: 80px;        /* 给时间设置固定最小宽度 */
+              flex-shrink: 0;         /* 防止时间部分被压缩 */
+              margin-right: 1rem;     /* 时间与内容之间的间距 */
           }
 
           /* 消息内容样式 */
@@ -103,12 +177,22 @@ sections:
 
           .connect-grid {
             display: grid;
-            grid-template-columns: repeat(2, 250px);
-            gap: 10rem;
-            margin-top: 10rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
             justify-content: center;
-            # height: 400px;
-            # max-width: 1200px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 1rem;
+          }
+
+          @media (max-width: 768px) {
+            .connect-grid {
+              grid-template-columns: 1fr;
+              gap: 1.5rem;
+              margin-top: 3rem;
+            }
           }
           .connect-card {
             text-align: center;
@@ -120,6 +204,21 @@ sections:
           .connect-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+          }
+          .connect-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+          }
+          @media (max-width: 768px) {
+            .connect-card {
+              padding: 1rem;
+            }
+            .connect-card img {
+              max-width: 150px;
+            }
           }
 
 
@@ -135,34 +234,17 @@ sections:
 
         <div class="research-grid">
           <!-- 图像复原 -->
-          <a href="tags/visual-restoration/">
-            <div class="research-card">
-              <div class="research-icon">🔄</div>
-              <h4>Visual Restoration</h4>
-              <p style="color: #666; line-height: 1.6;">
-                Visual Restoration technology focuses on recovering and enhancing the quality of degraded visual media.
-              </p>
-            </div>
+          <a href="tags/visual-restoration/" class="research-card">
+            <span class="research-icon">🔄</span>
+            <h4>Visual<br>Restoration</h4>
           </a>
-          <!-- 图像压缩 -->
-          <a href="tags/visual-compression/">
-            <div class="research-card">
-              <div class="research-icon">📦</div>
-              <h4>Visual Compression</h4>
-              <p style="color: #666; line-height: 1.6;">
-                Visual Compression technology reduces the storage and bandwidth requirements while preserving visual quality.
-              </p>
-            </div>
+          <a href="tags/visual-compression/" class="research-card">
+            <span class="research-icon">📦</span>
+            <h4>Visual<br>Compression</h4>
           </a>
-          <!-- 图像生成 -->
-          <a href="tags/visual-generation/">
-            <div class="research-card">
-              <div class="research-icon">🎨</div>
-              <h4>Visual Generation</h4>
-              <p style="color: #666; line-height: 1.6;">
-                Visual Generation​ is a field of artificial intelligence focused on creating new visual content from scratch.
-              </p>
-            </div>
+          <a href="tags/visual-generation/" class="research-card">
+            <span class="research-icon">🎨</span>
+            <h4>Visual<br>Generation</h4>
           </a>
         </div>
 
@@ -225,7 +307,7 @@ sections:
 
           <a href="https://github.com/CVL-UESTC">
             <div class="connect-card">
-              <img src="/images/github.png" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
+              <img src="/images/github.png" alt="GitHub">
               <h4> Github </h4>
             </div>
 
@@ -233,8 +315,8 @@ sections:
 
           <a href="https://huggingface.co/CVLUESTC">
             <div class="connect-card">
-              <img src="/images/hugging_face.jpeg" alt="Research" style="max-width: 200px; border-radius: 10px; margin-left: -0px;">
-              <h4> Hagging Face </h4>
+              <img src="/images/hugging_face.jpeg" alt="Hugging Face">
+              <h4> Hugging Face </h4>
             </div>
           </a>
         </div>
