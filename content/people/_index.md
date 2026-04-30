@@ -343,7 +343,10 @@ sections:
             <div class="team-member"><strong>Mingyang Zhang (张铭洋)</strong> 2024-2025, Research Intern <br> Sun Yat-sen University</div>
           </div>
           <div class="text-center">
-            <div class="team-member"><strong>Qifan Li (李祺帆)</strong> 2024-2025, Research Intern <br> ****</div>
+            <div class="team-member"><strong>Qifan Li (李祺帆)</strong> 2024-2026, Research Intern <br> </div>
+          </div>
+         <div class="text-center">
+            <div class="team-member"><strong>Yulin Jiang (蒋语林)</strong> 2024-2026, Research Intern <br> Peiking University</div>
           </div>
         </div>
     design:
