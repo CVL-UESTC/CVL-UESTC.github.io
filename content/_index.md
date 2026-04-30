@@ -19,10 +19,10 @@ sections:
             gap: 1.5rem;
             margin-top: 4rem;
             width: 100%;
-            max-width: 1200px;
+            max-width: 900px;
             margin-left: auto;
             margin-right: auto;
-            padding: 0 2rem;
+            padding: 0;
           }
 
           @media (max-width: 768px) {
@@ -101,11 +101,12 @@ sections:
           }
 
           .news-list {
-            # width: 100%; 
-            max-width: 100%;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
             flex-direction: column;
-            gap: 8px; /* 卡片之间的间距 */
+            gap: 8px;
           }
 
           .news-card {
