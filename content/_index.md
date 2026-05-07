@@ -248,6 +248,20 @@ sections:
 
         <h1 class="news-title" style="margin-top: 6rem;">NEWS</h1>
         <div class="news-list">
+          <a href="publications/paper2026/atd-tpami/">
+            <div class="news-card">
+              <span class="news-date">2026.04</span>
+              <span class="news-content">1 paper was accepted to </span>
+              <span class="news-conference"> TPAMI</span>
+            </div>
+          </a>
+          <a href="#">
+            <div class="news-card">
+              <span class="news-date">2026.04</span>
+              <span class="news-content">1 paper was accepted to </span>
+              <span class="news-conference"> IJCV</span>
+            </div>
+          </a>
           <a href="tags/cvpr-2026/">
             <div class="news-card">
               <span class="news-date">2026.03</span>
