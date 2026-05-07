@@ -13,91 +13,77 @@ sections:
     content:
       text: |-
         <style>
-          .research-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            margin-top: 4rem;
-            width: 100%;
+          .intro-section {
             max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0;
+            margin: 4rem auto 0;
+            padding: 0 2rem;
+            text-align: center;
+          }
+
+          .intro-text-cn {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            text-align: left;
+          }
+
+          .intro-text-en {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #5a6578;
+            margin-bottom: 1rem;
+            text-align: left;
+          }
+
+          .intro-continue {
+            margin-top: 1rem;
+          }
+
+          .research-links-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 1.5rem 0;
+          }
+
+          .research-links-row a {
+            white-space: nowrap;
+            font-size: 1.1rem;
+          }
+
+
+
+          .intro-section a {
+            color: #2c5282;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+            padding: 0 2px;
+            white-space: nowrap;
+          }
+
+          .intro-section a:hover {
+            color: #1a365d;
+            border-bottom-color: #1a365d;
+            background-color: rgba(44, 82, 130, 0.08);
+            border-radius: 3px;
           }
 
           @media (max-width: 768px) {
-            .research-grid {
-              grid-template-columns: 1fr;
+            .intro-section {
               padding: 0 1rem;
-              gap: 1rem;
             }
-            .research-card {
-              width: 100%;
-              height: 160px;
-            }
-            .research-card h4 {
+            .intro-text-cn {
               font-size: 1rem;
+              line-height: 1.7;
             }
-          }
-          .research-card {
-            position: relative;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 1.5rem;
-            background: linear-gradient(135deg, rgba(240, 253, 242, 0.8) 0%, rgba(161, 249, 169, 0.2) 50%);
-            border: none;
-            border-radius: 16px;
-            transition: all 0.4s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-            text-decoration: none;
-          }
-          .research-card:nth-child(2) {
-            background: linear-gradient(135deg, rgba(240, 245, 250, 0.8) 0%, rgba(204, 226, 249, 0.6) 100%);
-          }
-          .research-card:nth-child(3) {
-            background: linear-gradient(135deg, #faf9f7 0%, #f0ebe4 100%);
-          }
-          .research-card * {
-            text-align: center;
-          }
-          .research-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
-            border-color: rgba(0, 0, 0, 0.12);
-          }
-          .research-card h4 {
-            color: #2c3e50;
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin: 0;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            line-height: 1.4;
-            text-shadow: 0 1px 2px rgba(255,255,255,0.8);
-            white-space: nowrap;
-          }
-          .research-icon {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            line-height: 1;
-          }
-          .research-card::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 0;
-            height: 2px;
-            background: #2c3e50;
-            transition: width 0.3s ease;
-          }
-          .research-card:hover::after {
-            width: 40%;
+            .intro-text-en {
+              font-size: 0.95rem;
+              line-height: 1.6;
+            }
           }
 
           .news-list {
@@ -235,23 +221,32 @@ sections:
           <h1 style="margin: 0.5rem 0; color: #2c3e50;">UESTC</h1>
         </div>
 
-        <div class="research-grid">
-          <!-- 图像复原 -->
-          <a href="tags/visual-restoration/" class="research-card">
-            <span class="research-icon">🔄</span>
-            <h4>Visual Restoration</h4>
-          </a>
-          <a href="tags/visual-compression/" class="research-card">
-            <span class="research-icon">📦</span>
-            <h4>Visual Compression</h4>
-          </a>
-          <a href="tags/visual-generation/" class="research-card">
-            <span class="research-icon">🎨</span>
-            <h4>Visual Generation</h4>
-          </a>
+        <div class="intro-section">
+          <p class="intro-text-cn">
+            视觉信号本质上根植于高维数据空间的低维流形。探究高质量视觉分布特性并构建稳健的视觉先验，不仅是计算机视觉的核心基础，更是以下研究方向的共同理论基石：
+          </p>
+          <div class="research-links-row">
+            <a href="tags/visual-restoration/">视觉增强（降质估计）</a>
+            <a href="tags/visual-compression/">视觉编码（受限重建）</a>
+            <a href="tags/visual-generation/">视觉生成（条件采样）</a>
+          </div>
+          <p class="intro-text-cn intro-continue">
+            本实验室聚焦视觉先验建模，致力于视觉增强、压缩及生成领域的尖端研究。
+          </p>
+          <p class="intro-text-en">
+            Visual signals are inherently embedded within low-dimensional manifolds of high-dimensional data spaces. Exploring the distribution of high-quality visual signals and constructing robust priors is not only a fundamental challenge in computer vision but also a shared theoretical pillar for the following research areas:
+          </p>
+          <div class="research-links-row">
+            <a href="tags/visual-restoration/">visual enhancement (estimation from degraded observations)</a>
+            <a href="tags/visual-compression/">visual coding (reconstruction under bitstream constraints)</a>
+            <a href="tags/visual-generation/">visual generation (sampling under control conditions)</a>
+          </div>
+          <p class="intro-text-en intro-continue">
+            Our lab focuses on the theory of visual prior modeling and its cutting-edge applications in enhancement, compression, and generation.
+          </p>
         </div>
 
-        <h1 class="news-title">NEWS</h1>
+        <h1 class="news-title" style="margin-top: 6rem;">NEWS</h1>
         <div class="news-list">
           <a href="tags/cvpr-2026/">
             <div class="news-card">
