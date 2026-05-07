@@ -26,6 +26,8 @@ sections:
             color: #2c3e50;
             margin-bottom: 1rem;
             text-align: left;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
           }
 
           .intro-text-en {
@@ -34,6 +36,8 @@ sections:
             color: #5a6578;
             margin-bottom: 1rem;
             text-align: left;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
           }
 
           .intro-continue {
@@ -49,8 +53,10 @@ sections:
           }
 
           .research-links-row a {
-            white-space: nowrap;
             font-size: 1.1rem;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
           }
 
 
@@ -62,7 +68,6 @@ sections:
             border-bottom: 2px solid transparent;
             transition: all 0.3s ease;
             padding: 0 2px;
-            white-space: nowrap;
           }
 
           .intro-section a:hover {
@@ -75,14 +80,33 @@ sections:
           @media (max-width: 768px) {
             .intro-section {
               padding: 0 1rem;
+              max-width: 100%;
+              box-sizing: border-box;
             }
             .intro-text-cn {
               font-size: 1rem;
               line-height: 1.7;
+              word-wrap: break-word;
+              overflow-wrap: break-word;
             }
             .intro-text-en {
               font-size: 0.95rem;
               line-height: 1.6;
+              word-wrap: break-word;
+              overflow-wrap: break-word;
+            }
+            .research-links-row a {
+              white-space: normal;
+              word-wrap: break-word;
+              overflow-wrap: break-word;
+              max-width: 100%;
+              text-align: center;
+            }
+            .news-card {
+              max-width: 100%;
+              box-sizing: border-box;
+              word-wrap: break-word;
+              overflow-wrap: break-word;
             }
           }
 
