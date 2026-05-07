@@ -246,17 +246,6 @@ sections:
         </div>
 
         <div class="intro-section">
-          <p class="intro-text-cn">
-            视觉信号本质上根植于高维数据空间的低维流形。探究高质量视觉分布特性并构建稳健的视觉先验，不仅是计算机视觉的核心基础，更是以下研究方向的共同理论基石：
-          </p>
-          <div class="research-links-row">
-            <a href="tags/visual-restoration/">视觉增强（降质估计）</a>
-            <a href="tags/visual-compression/">视觉编码（受限重建）</a>
-            <a href="tags/visual-generation/">视觉生成（条件采样）</a>
-          </div>
-          <p class="intro-text-cn intro-continue">
-            本实验室聚焦视觉先验建模，致力于视觉增强、压缩及生成领域的尖端研究。
-          </p>
           <p class="intro-text-en">
             Visual signals are inherently embedded within low-dimensional manifolds of high-dimensional data spaces. Exploring the distribution of high-quality visual signals and constructing robust priors is not only a fundamental challenge in computer vision but also a shared theoretical pillar for the following research areas:
           </p>
