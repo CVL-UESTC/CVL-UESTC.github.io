@@ -57,6 +57,7 @@ sections:
             word-wrap: break-word;
             overflow-wrap: break-word;
             max-width: 100%;
+            white-space: nowrap;
           }
 
 
